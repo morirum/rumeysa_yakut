@@ -1,0 +1,82 @@
+
+.sola_kaydir
+{
+    float:left;
+    padding : 0 10px 10px 0; 
+}
+
+body
+{
+    background: url("arka_plan.png")    ;
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.kutu
+{
+    width: 500px;
+    padding:20;
+    text-align:left;
+    margin: auto;
+    margin-top: 23%;
+    color:#fffff0;
+    font-family: 'Times New Roman', Times, serif;
+    background: #2c3e50;
+   
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #34495e;
+    text-align: center;
+
+}
+
+li {
+    display:inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    background-color:#3b536c; 
+}
+
+ul li ul {
+    background-color:#2c3e50;
+    display:none;
+    position:absolute;
+    width:100px
+}
+
+ul li:hover ul{
+    display:block;
+}
+li ul li {
+    display:block; 
+}
+
+.konum
+{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
